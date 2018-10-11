@@ -4,7 +4,8 @@ namespace BinarySearch
 {
     class Program
     {
-        static void Main(string[] args)
+        public static BinarySearch (int [] inputArray, int key, int first, int last)
+
         {
             
         }
