@@ -16,4 +16,5 @@ Big O Space = O(n)
 
 ## Solution
 
-![Whiteboard Image] (Data-Structures-and-Algorithms/assets/Whiteboard Challenges 02.jpg)
+**Insert Shift Array Whiteboard**
+![whiteboard challenges 02](https://user-images.githubusercontent.com/39015829/46910459-53a06800-cef9-11e8-9bef-64cb14f7198e.jpg)
