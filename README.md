@@ -2,6 +2,6 @@
 
 ## Table of Contents
 
-1. [Challenge: Reverse an array](Challenges/reverseArray)
+1. 
 
 2. [Challenge: Array Shift](/Challenges/arrayShift)
