@@ -10,7 +10,7 @@ Follow the instructions exactly as directed on the doucmentation
 Write a method 
 
 ## Big O
-Time = O(n)
+Time = O(n);
 Big O Space = O(n)
  
 
