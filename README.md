@@ -6,4 +6,4 @@
 
 2. [Challenge: Array Shift](/Challenges/arrayShift)
 
-3. [Challenge: Array Shift](/Challenges/arrayShift)
+3. [Challenge: Array Shift](/Challenges/BinarySearch)
