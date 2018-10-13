@@ -4,3 +4,4 @@
 
 1. [Challenge: Reverse an array](Challenges/reverseArray)
 
+2. [Challenge: Array Shift](/Challenges/arrayShift)
