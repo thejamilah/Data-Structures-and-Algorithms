@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrayShift", "arrayShift\arrayShift.csproj", "{A9378554-AC33-4FB5-B234-3201CAFFC83B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrayShift", "arrayShift\arrayShift.csproj", "{A9378554-AC33-4FB5-B234-3201CAFFC83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrayShiftTest", "arrayShiftTest\arrayShiftTest.csproj", "{AE1D32ED-CA1E-463D-BCBC-CAFADDD3A2C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A9378554-AC33-4FB5-B234-3201CAFFC83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9378554-AC33-4FB5-B234-3201CAFFC83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9378554-AC33-4FB5-B234-3201CAFFC83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1D32ED-CA1E-463D-BCBC-CAFADDD3A2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1D32ED-CA1E-463D-BCBC-CAFADDD3A2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1D32ED-CA1E-463D-BCBC-CAFADDD3A2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1D32ED-CA1E-463D-BCBC-CAFADDD3A2C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
