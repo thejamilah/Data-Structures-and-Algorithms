@@ -25,3 +25,4 @@ Time: O (log n)
 Space: O (n)
 
 # Solution Whiteboard Image
+![whiteboard challenge 03](https://user-images.githubusercontent.com/39015829/46937034-0e715880-d015-11e8-8cfd-47c1cb808fb5.jpg)
