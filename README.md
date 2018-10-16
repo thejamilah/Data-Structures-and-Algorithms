@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Challenge: Array Reverse](/Challenges/ArrayReverse)
+1. Array_Reverse
 
 2. [Challenge: Array Shift](/Challenges/arrayShift)
 
