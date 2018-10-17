@@ -1,4 +1,4 @@
-# Code Fellows Whiteboard Challenge Assignment; Array Shift
+# Whiteboard Challenge Assignment; Array Shift
 
 ## Insert Array Shift Challenge
 
