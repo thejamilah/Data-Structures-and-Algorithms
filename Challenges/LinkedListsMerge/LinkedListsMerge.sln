@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedLinkedLists", "MergedLinkedLists\MergedLinkedLists.csproj", "{78995169-C8C6-475C-8CC3-A7EB0C9BF52D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListsMerge", "LinkedListsMerge\LinkedListsMerge.csproj", "{77D4EADD-3BAD-4EE9-B692-DDB92D629D67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78995169-C8C6-475C-8CC3-A7EB0C9BF52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78995169-C8C6-475C-8CC3-A7EB0C9BF52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78995169-C8C6-475C-8CC3-A7EB0C9BF52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78995169-C8C6-475C-8CC3-A7EB0C9BF52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D4EADD-3BAD-4EE9-B692-DDB92D629D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D4EADD-3BAD-4EE9-B692-DDB92D629D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D4EADD-3BAD-4EE9-B692-DDB92D629D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D4EADD-3BAD-4EE9-B692-DDB92D629D67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CE818FA7-BD0E-4EAA-AD4C-EA82CE549A59}
+		SolutionGuid = {000663A4-A792-4AE0-B560-DFBB8A799C31}
 	EndGlobalSection
 EndGlobal

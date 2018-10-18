@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MergedLinkedLists
+namespace LinkedListsMerge
 {
     class Program
     {
