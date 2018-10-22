@@ -2,4 +2,4 @@
 
 ## Table of Contents
 
-1. Linked Lists
+1. [Linked Lists](/Data-Structures/LinkedLists)
