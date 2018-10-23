@@ -9,16 +9,17 @@ namespace StacksQueues
         {   
             //Instantiating nodes
             Console.WriteLine("Stacks and Queues");
-            Node inputNode1 = new Node(100);
-            Node inputNode2 = new Node(200);
-            Node inputNode3 = new Node(300);
-            Node inputNode4 = new Node(400);
-            Node inputNode5 = new Node(500);
+            Console.WriteLine("=========");
+            Node inputNode1 = new Node(10);
+            Node inputNode2 = new Node(15);
+            Node inputNode3 = new Node(20);
+            Node inputNode4 = new Node(5);
+         
             Queue theQueue = new Queue(inputNode1);
             theQueue.Enqueue(inputNode2);
             theQueue.Enqueue(inputNode3);
             theQueue.Enqueue(inputNode4);
-            theQueue.Enqueue(inputNode5);
+            
 
             //Console write lines below display node values for peek and dequeued nodes
             Console.WriteLine("Queue:");
