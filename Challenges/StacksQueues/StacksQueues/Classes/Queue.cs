@@ -7,9 +7,10 @@ namespace StacksQueues.Classes
 {
     public class Queue
     {
-
+        //check if stack is empty  
         //push nodes to stack1
-        //pop nodes to stack2
-        //pop nodes from stack 2
+        //pop and push nodes from  stack1 to stack2
+        //pop and Enqueue node from s2 into queue
+                   
     }
 }
