@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-1. Array_Reverse
+* [Challenge: Array Shift](/Challenges/arrayShift)
 
-2. [Challenge: Array Shift](/Challenges/arrayShift)
+* [Challenge: Binary Search](/Challenges/BinarySearch)
 
-3. [Challenge: Binary Search](/Challenges/BinarySearch)
+* [Challenge: Stacks and Queues](/Challenges/StacksQueues)
