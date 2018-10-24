@@ -9,3 +9,7 @@
 * [Challenge: Stacks and Queues](/Challenges/StacksQueues)
 
 * [Challenge: Stack as Queues](/Challenges/FIFOAnimalShelfter)
+
+* [Challenge: Linked Lists](/Challenges/LinkedLists)
+
+* [Challenge: Merge Linked Lists](/Challenges/LinkedListsMerge)
