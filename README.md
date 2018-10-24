@@ -7,3 +7,5 @@
 * [Challenge: Binary Search](/Challenges/BinarySearch)
 
 * [Challenge: Stacks and Queues](/Challenges/StacksQueues)
+
+* [Challenge: Stack as Queues](/Challenges/FIFOAnimalShelfter)
