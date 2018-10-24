@@ -33,7 +33,7 @@ Time: O (1)
 Space: O (n)
 
 More on Big O Here:
-http://bigocheatsheet.com/</br?
+http://bigocheatsheet.com/
 
 ### Whiteboard Solution Images
 ![whiteboard challenge 13](https://user-images.githubusercontent.com/39015829/47465026-039a8e80-d7a0-11e8-9f20-bd62b09ed2e5.jpg)
