@@ -10,7 +10,8 @@ Comparison
 Create a method that take a string as its only argument, and return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
 * Round Brackets : ()
 * Square Brackets : []
-* Curly Brackets : {}
+* Curly Brackets : {} </br>
+
 _Example_ </br>
 
 | Input | Output |
@@ -26,12 +27,7 @@ _Example_ </br>
 _Example Output_ </br>
 
 | Input | Output | Why |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-| Input | Output | Why |
-| :---         |     :---:      |          ---: |
+| :---         |     :---:      |     :---:      |
 | { | FALSE | error unmatched opening { remaining. |
 | ) | FALSE | error closing ) arrived without corresponding opening. |
 | } | FALSE | error closing } arrived without corresponding opening. |
