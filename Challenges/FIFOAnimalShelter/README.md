@@ -25,7 +25,7 @@ _Example_ </br>
 
 _Example Output_ </br>
 | Input | Output | Why |
-| --- | --- |
+| :---         |     :---:      |          ---: |
 | { | FALSE | error unmatched opening { remaining.
 | ) | FALSE | error closing ) arrived without corresponding opening.
 | } | FALSE | error closing } arrived without corresponding opening.
