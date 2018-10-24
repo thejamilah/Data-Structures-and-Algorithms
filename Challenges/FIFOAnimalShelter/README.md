@@ -24,11 +24,17 @@ _Example_ </br>
 | {(}) | FALSE |
 
 _Example Output_ </br>
+
 | Input | Output | Why |
 | :---         |     :---:      |          ---: |
-| { | FALSE | error unmatched opening { remaining.
-| ) | FALSE | error closing ) arrived without corresponding opening.
-| } | FALSE | error closing } arrived without corresponding opening.
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+| Input | Output | Why |
+| :---         |     :---:      |          ---: |
+| { | FALSE | error unmatched opening { remaining. |
+| ) | FALSE | error closing ) arrived without corresponding opening. |
+| } | FALSE | error closing } arrived without corresponding opening. |
 
 ### Big O
 Time: O (1)
