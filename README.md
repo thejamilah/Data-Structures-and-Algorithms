@@ -14,3 +14,5 @@
 
 * [Challenge: Merge Linked Lists](/Challenges/LinkedListsMerge)
 
+* [Challenge: Multi Bracket Validation](/Challenges/MultiBracketVaidation)
+

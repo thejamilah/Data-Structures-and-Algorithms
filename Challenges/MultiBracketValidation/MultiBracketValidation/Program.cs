@@ -6,7 +6,7 @@ namespace MultiBracketValidation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("MultiBracketValidation");
+            Console.WriteLine("Multi Bracket Validation");
         }
     }
 }
