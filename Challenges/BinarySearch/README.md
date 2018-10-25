@@ -1,4 +1,4 @@
-# Binary Search Challenge - Code Fellows Assignment
+# .NET C# Educational Whiteboard Assignment
 
 ## Problem Domain
 Binary search a sorted array of integers with an integer search key without using the built-in methods of the languguage

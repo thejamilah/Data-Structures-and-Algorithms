@@ -2,12 +2,15 @@
 
 ## Table of Contents
 
-1. [Challenge: Array Reverse]
+* [Challenge: Array Shift](/Challenges/arrayShift)
 
-2. [Challenge: Array Shift](/Challenges/arrayShift)
+* [Challenge: Binary Search](/Challenges/BinarySearch)
 
-3. [Challenge: Binary Search](/Challenges/BinarySearch)
+* [Challenge: Stacks and Queues](/Challenges/StacksQueues)
 
-4. [Challenge: Linked Lists](/Challenges/LinkedLists)
+* [Challenge: Stack as Queues](/Challenges/FIFOAnimalShelfter)
 
-5. [Challenge: Linked Lists Merge](/Challenges/LinkedListsMerge)
+* [Challenge: Linked Lists](/Challenges/LinkedLists)
+
+* [Challenge: Merge Linked Lists](/Challenges/LinkedListsMerge)
+
