@@ -22,6 +22,7 @@ namespace LinkedLists
         public Node(object value)
         {
             Value = value;
+            
         }
     }
 }
