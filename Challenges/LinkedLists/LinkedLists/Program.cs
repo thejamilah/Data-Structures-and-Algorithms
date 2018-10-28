@@ -6,7 +6,7 @@ namespace LinkedLists
     {
         public static void Main(string [] args)
         {
-            Console.WriteLine("KthElementFromEnd");
+            Console.WriteLine("nth ElementFromEnd");
 
         }
         //KthElement(k)
