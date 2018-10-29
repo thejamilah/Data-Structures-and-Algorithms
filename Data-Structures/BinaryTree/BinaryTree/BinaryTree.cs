@@ -6,9 +6,21 @@ namespace BinaryTree
 {
     public class BinaryTree
     {
-        Node top;
+        public class Node
+        {
+            public Node root;
+            public int count;
 
-        public BinaryTree()
+            public void BinaryTree()
+            {
+                root = null;
+                count = 0;
+            }
+            public bool isEmpty()
+            {
+                return root == null;
+            }
 
+        }
     }
 }
