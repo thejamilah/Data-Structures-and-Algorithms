@@ -6,11 +6,15 @@ namespace BinaryTree
 {
     public class Node
     {
-        public int Value { get; set; }
+        public int Value;
 
-        public Node LeftChild { get; set; }
+        public Node LeftChild;
 
-        public Node RightChild { get; set; }
+        public Node RightChild;
+
+        public Node()
+        {
+        }
 
         public Node(int value)
         {
