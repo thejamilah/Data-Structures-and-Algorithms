@@ -5,30 +5,41 @@ namespace BinaryTree
 {
     public class BinaryTree
     {
-        public static void inOrder(Node root)
+        public static List<Node> InOrder(Node root)
         {
 
         }
 
-        public static List<Node> preOrder(Node root)
+        public static List<Node> PreOrder(Node root)
         {
             Console.WriteLine(root.Value);
             List<Node> nodeArray = new List<Node>();
             nodeArray.Add(root);
             if (root.LeftChild != null)
             {
-                nodeArray.AddRange(preOrder(root.LeftChild));   
+                nodeArray.AddRange(PreOrder(root.LeftChild));   
             }
             if (root.RightChild != null)
             {
-                nodeArray.AddRange(preOrder(root.RightChild));
+                nodeArray.AddRange(PreOrder(root.RightChild));
             }
             return nodeArray;
         }
 
-        public static void postOrder(Node root)
+        public static List<Node> PostOrder(Node root)
         {
-
+            Console.WriteLine(root.Value);
+            List<Node> nodeArray = new List<Node>();
+            nodeArray.Add(root);
+            if (root.LeftChild != null)
+            {
+                nodeArray.AddRange(PreOrder(root.LeftChild));
+            }
+            if (root.RightChild != null)
+            {
+                nodeArray.AddRange(PreOrder(root.RightChild));
+            }
+            return nodeArray;
         }
     }
 }
