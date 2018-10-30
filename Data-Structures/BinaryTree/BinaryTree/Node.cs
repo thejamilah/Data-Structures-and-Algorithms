@@ -12,15 +12,9 @@ namespace BinaryTree
 
         public Node RightChild;
 
-        public Node()
-        {
-        }
-
         public Node(int value)
         {
             Value = value;
         }
-
-
     }
 }
