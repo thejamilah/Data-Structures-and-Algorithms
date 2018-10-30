@@ -23,7 +23,7 @@ namespace BST_Test
             //arrange
             Node node = new Node(10);
             //act
-
+            
             //assert
         }
     }
