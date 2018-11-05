@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BinaryTree
 {
-    class BinarySearchTree
+    public class BinarySearchTree
     {
         public Node root;
         public BinarySearchTree()
