@@ -16,7 +16,7 @@ _Example Output_ </br>
 11 </br>
 
 ### Big O
-Time: O ( log(n))
+Time: O ( log(n)) </br>
 Space: O (n)
 
 More on Big O Here:
