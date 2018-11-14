@@ -10,14 +10,14 @@ namespace Hashtables.Classes
 
         public MyHashTable()
         {
-            HashTableArray = new Node[1000];
+            HashTableArray = new Node[1024];
         }
 
         public void Add(int value, string key)
         {
             Node node = new Node(value, key);
             int index = GetHash(key);
-            if (HashTableArray[index] != null) 
+            if (HashTableArray[index] == null) 
             {
                 HashTableArray[index] = node;
             }
