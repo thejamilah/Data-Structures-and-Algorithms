@@ -31,7 +31,7 @@ namespace Hashtables
             {
                 if (myTable.HashTableArray[i] != null)
                 {
-                    Console.WriteLine();
+                    Console.WriteLine($"Here are the keys to the kingdom: {i}");
                 }
             }
        

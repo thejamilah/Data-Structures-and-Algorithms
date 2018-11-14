@@ -12,19 +12,22 @@ namespace Hashtables.Classes
 
         public int Value { get; set; }
 
-        public Node(string key, int value)
-        {
-            Key = key;
+        //public Node(string key, int value)
+        //{
+        //    Key = key;
 
-            Value = value;
+        //    Value = value;
 
-            Next = null;
-        }
+        //    Next = null;
+        //}
 
         public Node(int value, string key)
         {
             Value = value;
+
             Key = key;
+
+            Next = null;
         }
     }
 }
