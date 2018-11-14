@@ -20,5 +20,11 @@ namespace Hashtables.Classes
 
             Next = null;
         }
+
+        public Node(int value, string key)
+        {
+            Value = value;
+            Key = key;
+        }
     }
 }

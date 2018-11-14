@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Hashtables.Classes;
 
 namespace Hashtables
 {
@@ -15,7 +16,7 @@ namespace Hashtables
         }
         public static void InstaHashtable()
         {
-            Hashtable myTable = new Hashtable();
+            MyHashTable myTable = new MyHashTable();
 
             myTable.Add(5, "please");
             myTable.Add(10, "cat");
