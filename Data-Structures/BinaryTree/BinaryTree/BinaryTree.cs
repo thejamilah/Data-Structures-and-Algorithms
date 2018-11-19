@@ -7,6 +7,18 @@ namespace BinaryTree
     {
         public static List<Node> InOrder(Node root)
         {
+            Console.WriteLine(root.Value);
+            List<Node> nodeArray = new List<Node>();
+            nodeArray.Add(root);
+            if (root.LeftChild != null)
+            {
+                nodeArray.AddRange(InOrder(root.LeftChild));
+            }
+            if (root.RightChild != null)
+            {
+                nodeArray.AddRange(InOrder(root.RightChild));
+            }
+            return nodeArray;
 
         }
 
@@ -33,11 +45,11 @@ namespace BinaryTree
             nodeArray.Add(root);
             if (root.LeftChild != null)
             {
-                nodeArray.AddRange(PreOrder(root.LeftChild));
+                nodeArray.AddRange(PostOrder(root.LeftChild));
             }
             if (root.RightChild != null)
             {
-                nodeArray.AddRange(PreOrder(root.RightChild));
+                nodeArray.AddRange(PostOrder(root.RightChild));
             }
             return nodeArray;
         }
