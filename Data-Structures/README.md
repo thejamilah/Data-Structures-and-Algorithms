@@ -2,4 +2,6 @@
 
 ## Table of Contents
 
-1. [Linked Lists](/Data-Structures/LinkedLists)
+- [Linked Lists](/Data-Structures/LinkedLists)
+
+- [BinaryTree](/Data-Structures/BinaryTree)
