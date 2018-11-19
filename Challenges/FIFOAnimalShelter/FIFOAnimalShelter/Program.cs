@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace LinkedListsMerge
+namespace FIFOAnimalShelter
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("FIFO Aminal Shelter");
         }
     }
-
-
 }

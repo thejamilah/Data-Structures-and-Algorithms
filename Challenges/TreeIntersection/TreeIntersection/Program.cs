@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinkedListsMerge
+namespace TreeIntersection
 {
     class Program
     {
@@ -9,6 +9,4 @@ namespace LinkedListsMerge
             Console.WriteLine("Hello World!");
         }
     }
-
-
 }

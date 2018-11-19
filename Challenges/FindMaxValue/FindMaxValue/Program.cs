@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace LinkedListsMerge
+namespace FindMaxValue
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Find-Maximum-Value-Binary-Tree");
         }
     }
-
-
 }
