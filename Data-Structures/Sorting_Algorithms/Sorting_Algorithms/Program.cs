@@ -30,8 +30,6 @@ namespace Sorting_Algorithms
                 Console.Write($"{x} ");
             }
 
-            Console.WriteLine("==========");
-
             Console.WriteLine("This is the Insertion Sort Method Result:");
 
             InsertionSort(inputArray);
