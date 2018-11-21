@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace MultiBracketValidation
+namespace FizzBuzz
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Multi Bracket Validation");
+            Console.WriteLine("Fizz Buzz");
         }
     }
 }
