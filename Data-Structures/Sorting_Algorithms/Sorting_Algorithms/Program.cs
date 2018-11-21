@@ -60,6 +60,62 @@ namespace Sorting_Algorithms
             }
 
         }
+
+        static void MergeSort(int[] inputArray)
+        {
+            if(inputArray.Length > 1)
+            {
+                int leftSize = inputArray.Length / 2;
+                int rightSize = inputArray.Length - leftSize;
+
+                int[] left = new int[leftSize];
+                Array.Copy(inputArray, 0, left, 0, leftSize);
+
+                int[] right = new int[rightSize];
+                Array.Copy(inputArray, 0, right, 0, rightSize);
+
+                MergeSort(left);
+                MergeSort(right);
+                Merge(left, right, inputArray);
+            }
+        }
+
+        static int[] Merge(int[] left, int[] right, int[] arr)
+        {
+            int i = 0;
+
+            int j = 0;
+
+            int k = 0;
+
+            while (i < left.Length && j < right.Length)
+            {
+                if(left[i] <= right[j])
+                {
+                    arr[k] = left[i];
+                    i++;
+                }
+                else
+                {
+                    arr[k] = right[j];
+                    j++;
+                }
+                k++;
+            }
+
+            if(i == left.Length)
+            {
+                Array.Copy(right, j, arr, k, right.Length - j);
+            }
+
+            else
+            {
+                Array.Copy(left, i, arr, k, left.Length - i);
+            }
+
+            return arr;
+
+        }
     }
 }
 
