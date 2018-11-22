@@ -24,11 +24,16 @@ namespace Sorting_Algorithms
 
             int[] inputArray = new int[] { 15, 7, 8, 12, 32, 77};
 
+            Console.WriteLine(" ");
+
             Console.WriteLine("This is an unsorted array:");
+            
             foreach (int x in inputArray)
             {
                 Console.Write($"{x} ");
             }
+
+            Console.WriteLine("\n ");
 
             Console.WriteLine("This is the Insertion Sort Method Result:");
 
@@ -37,6 +42,29 @@ namespace Sorting_Algorithms
             {
                 Console.Write($"{y} ");
             }
+
+            Console.WriteLine("\n ");
+
+            Console.WriteLine("==================================================");
+
+            Console.WriteLine("\n ");
+
+            Console.WriteLine("This is an unsorted array:");
+
+            Console.WriteLine("\n ");
+
+            int[] inputArray2 = { 3, 9, 22, 43, 32, 94, 100 };
+
+            foreach (int y in inputArray2)
+            {
+                Console.Write($"{y} ");
+            }
+
+            Console.WriteLine("\n ");
+
+            Console.WriteLine("This is the result of the Quick Sort Method:");
+
+            QuickSort(inputArray2, 0, inputArray2.Length - 1);
         }
 
         /// <summary>
@@ -61,22 +89,66 @@ namespace Sorting_Algorithms
 
         }
 
-        static void MergeSort(int[] inputArray)
+        static void QuickSort(int[] arr, int left, int right)
         {
-            if(inputArray.Length > 1)
+            if (left < right)
             {
-                int leftSize = inputArray.Length / 2;
-                int rightSize = inputArray.Length - leftSize;
+                int position = Partition(arr, left, right);
+
+                QuickSort(arr, left, position - 1);
+
+                QuickSort(arr, position + 1, right);
+
+            }
+        }
+
+        static int Partition(int[] arr, int left, int right)
+        {
+            int pivot = arr[right];
+
+            int low = left - 1;
+
+            for (int i = left; i < right; i++)
+            {
+                if (arr[i] <= pivot)
+                {
+                    low++;
+                    Swap(arr, i, low);
+                }
+            }
+
+            Swap(arr, right, low + 1);
+
+            Console.WriteLine(string.Join(",", arr));
+
+            return low + 1;
+        }
+
+        static void Swap(int[] arr, int i, int low)
+        {
+            int temp;
+            temp = arr[i];
+            arr[i] = arr[low];
+            arr[low] = temp;
+        }
+
+
+        static void MergeSort(int[] inputArray2)
+        {
+            if(inputArray2.Length > 1)
+            {
+                int leftSize = inputArray2.Length / 2;
+                int rightSize = inputArray2.Length - leftSize;
 
                 int[] left = new int[leftSize];
-                Array.Copy(inputArray, 0, left, 0, leftSize);
+                Array.Copy(inputArray2, 0, left, 0, leftSize);
 
                 int[] right = new int[rightSize];
-                Array.Copy(inputArray, 0, right, 0, rightSize);
+                Array.Copy(inputArray2, 0, right, 0, rightSize);
 
                 MergeSort(left);
                 MergeSort(right);
-                Merge(left, right, inputArray);
+                Merge(left, right, inputArray2);
             }
         }
 
