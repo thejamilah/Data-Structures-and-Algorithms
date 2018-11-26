@@ -53,7 +53,7 @@ namespace Sorting_Algorithms
 
             Console.WriteLine("\n ");
 
-            int[] inputArray2 = { 3, 9, 22, 43, 32, 94, 100 };
+            int[] inputArray2 = { 9, 3, 22, 1, 43, 32, 94, 79, 100 };
 
             foreach (int y in inputArray2)
             {
@@ -65,6 +65,8 @@ namespace Sorting_Algorithms
             Console.WriteLine("This is the result of the Quick Sort Method:");
 
             QuickSort(inputArray2, 0, inputArray2.Length - 1);
+
+            Console.WriteLine("\n ");
         }
 
         /// <summary>
