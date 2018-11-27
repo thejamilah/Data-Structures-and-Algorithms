@@ -67,6 +67,24 @@ namespace Sorting_Algorithms
             QuickSort(inputArray2, 0, inputArray2.Length - 1);
 
             Console.WriteLine("\n ");
+
+            Console.WriteLine("This is an unsorted array:");
+
+            Console.WriteLine("\n ");
+
+            int[] inputArray3 = { 134, 22, 71, 84, 1, 9, 18, 31, 4 };
+
+
+            foreach (int z in inputArray3)
+            {
+                Console.Write($"{z} ");
+            }
+
+            MergeSort(inputArray3);
+
+            Console.WriteLine("\n ");
+
+            Console.WriteLine("This is the result of the Merge Sort Method:");
         }
 
         /// <summary>
@@ -91,6 +109,12 @@ namespace Sorting_Algorithms
 
         }
 
+        /// <summary>
+        /// Quick Sort
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="left"></param>
+        /// <param name="right"></param>
         static void QuickSort(int[] arr, int left, int right)
         {
             if (left < right)
@@ -134,23 +158,26 @@ namespace Sorting_Algorithms
             arr[low] = temp;
         }
 
-
-        static void MergeSort(int[] inputArray2)
+        /// <summary>
+        /// Merge Sort
+        /// </summary>
+        /// <param name="inputArray3"></param>
+        static void MergeSort(int[] inputArray3)
         {
-            if(inputArray2.Length > 1)
+            if(inputArray3.Length > 1)
             {
-                int leftSize = inputArray2.Length / 2;
-                int rightSize = inputArray2.Length - leftSize;
+                int leftSize = inputArray3.Length / 2;
+                int rightSize = inputArray3.Length - leftSize;
 
                 int[] left = new int[leftSize];
-                Array.Copy(inputArray2, 0, left, 0, leftSize);
+                Array.Copy(inputArray3, 0, left, 0, leftSize);
 
                 int[] right = new int[rightSize];
-                Array.Copy(inputArray2, 0, right, 0, rightSize);
+                Array.Copy(inputArray3, inputArray3.Length / 2, right, 0, rightSize);
 
                 MergeSort(left);
                 MergeSort(right);
-                Merge(left, right, inputArray2);
+                Merge(left, right, inputArray3);
             }
         }
 
