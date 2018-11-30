@@ -6,7 +6,7 @@ namespace GetEdge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Get Edge");
+            Console.WriteLine("Get Edge!");
         }
     }
 }
