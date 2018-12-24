@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Challenge: Array Shift](/Challenges/ReverseArray)
+* [Challenge: Reverse an Array](/Challenges/ReverseArray)
 
 * [Challenge: Array Shift](/Challenges/arrayShift)
 
