@@ -10,13 +10,13 @@ namespace arrayShift
             int middleNum = 5;
             int[] result = ArrayShift(array, middleNum);
 
-            string arrayAsString = "";
+            string arrayToString = "";
             for (int i = 0; i < array.Length; i++)
             {
-                arrayAsString = arrayAsString + array[i];
+                arrayToString = arrayToString + array[i];
             }
 
-            Console.WriteLine(arrayAsString);
+            Console.WriteLine(arrayToString);
 
             Console.WriteLine(middleNum);
 
