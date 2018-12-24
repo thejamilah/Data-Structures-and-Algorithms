@@ -13,11 +13,13 @@ Write a method called ArrayShift() which takes in an array and the value to be a
 
 ## Approach & Efficiency 
 #### Big O
-Time = O(n);
-Big O Space = O(n)
+Time = O(n)</br>
+Time is O (n) because the iteration through the array of n number of elements.</br>
+Big O Space = O(n)</br>
+Space is O (n) because of the instantiation of a new array with n number of elements in order to insert the new value.</br>
  
  ## Algorithm
- 
+ *
  ## Pseudo Code
 
 **Insert Shift Array Whiteboard**
