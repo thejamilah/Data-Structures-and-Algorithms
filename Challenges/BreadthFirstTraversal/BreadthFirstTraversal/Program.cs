@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace MultiBracketValidation
+namespace BreadthFirstTraversal
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Multi Bracket Validation");
+            Console.WriteLine("Breadth First Traversal");
         }
     }
 }
