@@ -20,6 +20,7 @@ namespace arrayShift
 
             Console.WriteLine(middleNum);
 
+            //Output ArrayShift method to console
             string resultString = "";
             for (int i = 0; i < result.Length; i++)
             {
@@ -39,8 +40,12 @@ namespace arrayShift
         /// <returns></returns>
         public static int[] ArrayShift(int[] array, int middleNum)
         {
+            //instantiate a new array of input array size +1
             int[] newArray = new int[array.Length + 1];
+
+            //instatiate counter
             int counter = 0;
+
             //using decimal and Math.Ceiling allows the correct middle index to be located 
             //with an unvenen index length
             decimal midIndex = Math.Ceiling((decimal)(array.Length) / 2);
