@@ -2,14 +2,18 @@
 
 ## Table of Contents
 
-* [Challenge: Array Shift](/Challenges/arrayShift)
+* [Reverse an Array](/Challenges/ReverseArray)
 
-* [Challenge: Binary Search](/Challenges/BinarySearch)
+* [Array Shift](/Challenges/arrayShift)
 
-* [Challenge: Stacks and Queues](/Challenges/StacksQueues)
+* [Binary Search](/Challenges/BinarySearch)
 
-* [Challenge: Stack as Queues](/Challenges/FIFOAnimalShelfter)
+* [Linked Lists](/Challenges/LinkedLists)
 
-* [Challenge: Linked Lists](/Challenges/LinkedLists)
+* [Merge Linked Lists](/Challenges/LinkedListsMerge)
 
-* [Challenge: Merge Linked Lists](/Challenges/LinkedListsMerge)
+* [Multi Bracket Validation](/Challenges/MultiBracketVaidation)
+
+* [Stacks and Queues](/Challenges/StacksQueues)
+
+* [Stack as Queues: Animal Shelter](/Challenges/FIFOAnimalShelfter)

@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace MultiBracketValidation
+namespace TreeIntersection
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Multi Bracket Validation");
+            Console.WriteLine("Hello World!");
         }
     }
 }
