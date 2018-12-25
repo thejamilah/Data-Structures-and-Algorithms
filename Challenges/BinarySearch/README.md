@@ -1,4 +1,4 @@
-# .NET C# Educational Whiteboard Assignment
+# Binary Seach in a Sorted 1D Array
 
 ## Problem Domain
 Binary search a sorted array of integers with an integer search key without using the built-in methods of the languguage
@@ -17,7 +17,7 @@ Imagine that you need to create a new email address for a new employee. Your sys
 Don't you just hate waiting on long system run times? Would it be faster to divide and conquer and then search for a more efficient search? 
 Enter Binary Search
 
-# Techincal Information
+# Approach and Efficiency
 ## Big O
 ### Time
 Time: O (log n)
