@@ -62,6 +62,7 @@ namespace ReverseArray
 
             int temp;
 
+            //reversed the array in place
             for(int i = 0; i < inputArray.Length / 2; i++)
             {
                 temp = inputArray[inputArray.Length -1 -i];
