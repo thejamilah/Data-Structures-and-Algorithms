@@ -12,6 +12,11 @@ namespace ReverseArray
             ReverseArray2();
         }
 
+        /// <summary>
+        /// Reveres an array with the instatiation of a new array creating additional space 
+        /// Time: O (n) for the iteration of the array n times
+        /// Space: O (n) Additional space is create/insertion of array for the length of the new array
+        /// </summary>
         static void ReverseArray1()
         {
             //hard coded input string
@@ -46,6 +51,9 @@ namespace ReverseArray
             }
         }
 
+        /// <summary>
+        /// Reverse an array in place with Time: O(log n) Space: O (1)
+        /// </summary>
         static void ReverseArray2()
         {
             //hard coded input array
@@ -62,6 +70,7 @@ namespace ReverseArray
 
             int temp;
 
+            //reversed the array in place
             for(int i = 0; i < inputArray.Length / 2; i++)
             {
                 temp = inputArray[inputArray.Length -1 -i];
