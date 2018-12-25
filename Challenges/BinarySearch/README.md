@@ -1,4 +1,4 @@
-# Binary Seach in a Sorted 1D ARray
+# Binary Seach in a Sorted 1D Array
 
 ## Problem Domain
 Binary search a sorted array of integers with an integer search key without using the built-in methods of the languguage
