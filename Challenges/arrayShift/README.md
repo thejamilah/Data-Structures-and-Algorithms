@@ -19,8 +19,19 @@ Big O Space = O(n)</br>
 Space is O (n) because of the instantiation of a new array with n number of elements in order to insert the new value.</br>
  
  ## Algorithm
- *
- ## Pseudo Code
-
-**Insert Shift Array Whiteboard**
-![whiteboard challenges 02](https://user-images.githubusercontent.com/39015829/46910459-53a06800-cef9-11e8-9bef-64cb14f7198e.jpg)
+ * Inside Main() instantiate input array
+ * Declare input value as midNum
+ * Outside of Main()
+ * Instatiate method that accepts the input array and midNum as argurments ShiftArray(int[] array, int midNum)
+ * Instantiate a new array of input array size + 1
+ * instantiate a counters equal to 0
+ * Using decimal to account for unenen array size determine midIndex of input array decimal midIndex = Math.Ceiling((decimal)(array.Lenghth) / 2)
+ * using a for loop, iterate through neew array length  by incrementing the variable for (int i = 0; i < newArray.Length; i++)
+ * if midIndex equals i during iteration 
+ * assign the new array at variable equal to midNum
+ * else
+ * set new array at variable index equal to input array at index counter incremented
+ * return newArray
+ 
+ **Insert Shift Array Whiteboard**
+![arrayshift](https://user-images.githubusercontent.com/39015829/50411297-c6f50e80-07b3-11e9-9022-3053fefbbb01.jpg)
