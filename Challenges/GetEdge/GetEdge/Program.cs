@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace MultiBracketValidation
+namespace GetEdge
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Multi Bracket Validation");
+            Console.WriteLine("Get Edge!");
         }
     }
 }
