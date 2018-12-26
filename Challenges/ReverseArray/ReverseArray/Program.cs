@@ -10,6 +10,7 @@ namespace ReverseArray
             Console.WriteLine(" ");
             ReverseArray1();
             ReverseArray2();
+            ReverseArray3();
         }
 
         /// <summary>
@@ -86,6 +87,30 @@ namespace ReverseArray
             {
                 Console.WriteLine(k);
             }
+        }
+
+        static void ReverseArray3()
+        {
+            Console.WriteLine(" ");
+            Console.WriteLine("This is input Array 3:");
+            string[] cities = { "paris", "milan", "london", "dublin" };
+            
+            foreach (string c in cities)
+            {
+
+                Console.WriteLine(c);
+            }
+
+            Console.WriteLine(" ");
+            Console.WriteLine("This is the result of Reverse Array Method 3:");
+            for (int i = cities.Length -1; i >=0; i--)
+            {
+                Console.WriteLine(cities[i]);
+            }
+
+
+
+
         }
     }
 }
