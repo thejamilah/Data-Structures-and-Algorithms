@@ -20,4 +20,4 @@
 
 ## Data Structures and Algorithms: Table of Contents
 
-* [Binary Search Agorithm](/DataStructures/BinarySearch)
+* [Binary Search Agorithm](/Data-Structures/BinarySearch)
