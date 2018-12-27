@@ -19,3 +19,5 @@
 * [Stack as Queues: Animal Shelter](/Challenges/FIFOAnimalShelfter)
 
 ## Data Structures and Algorithms: Table of Contents
+
+* [Binary Search Agorithm](/DataStructures/BinarySearch)
