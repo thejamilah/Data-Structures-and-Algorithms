@@ -1,6 +1,7 @@
 # Data Structures
 
 ## Table of Contents
+* [Binary Search](/Data-Structures/BinarySearch)
 
 * [Linked Lists](/Data-Structures/LinkedLists)
 

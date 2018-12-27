@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-## Table of Contents
+## Probelm Domains: Table of Contents
 
 * [Reverse an Array](/Challenges/ReverseArray)
 
@@ -17,3 +17,7 @@
 * [Stacks and Queues](/Challenges/StacksQueues)
 
 * [Stack as Queues: Animal Shelter](/Challenges/FIFOAnimalShelfter)
+
+## Data Structures and Algorithms: Table of Contents
+
+* [Binary Search Agorithm](/Data-Structures/BinarySearch)
