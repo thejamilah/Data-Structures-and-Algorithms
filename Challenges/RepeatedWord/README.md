@@ -5,9 +5,9 @@ Write a method that accepts a lengthy string parameter. This method should utili
 
 ### Approach & Efficiency 
 Time: O (n) </br>
-This iterates over an array of strings to check if the strings exist in a hash table and add them to the hash table if they do not exist.
+This iterates over an array of strings to check if the strings exist in a hash table and add them to the hash table if they do not exist.</br>
 Space: O (n) </br>
-This method requires the instantiation of a new hash table and a string array. Therefore additional space is needed.
+This method requires the instantiation of a new hash table and a string array. Therefore additional space is needed.</br>
 
 More on Big O Here:
 http://bigocheatsheet.com/ </br>
