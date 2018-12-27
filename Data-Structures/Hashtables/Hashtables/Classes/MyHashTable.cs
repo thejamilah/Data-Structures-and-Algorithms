@@ -15,7 +15,9 @@ namespace Hashtables.Classes
 
         public void Add(int value, string key)
         {
+            //Create a new node with value and key for hashtable
             Node node = new Node(value, key);
+            
             int index = GetHash(key);
             if (HashTableArray[index] == null) 
             {
