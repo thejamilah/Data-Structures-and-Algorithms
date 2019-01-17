@@ -10,7 +10,6 @@ namespace StacksQueues
             //using statement StacksQueues.Classes added for access to Node
             //Instantiating nodes
             Console.WriteLine("Stacks and Queues");
-            Console.WriteLine("insert branch into github");
             Node inputNode1 = new Node(100);
             Node inputNode2 = new Node(200);
             Node inputNode3 = new Node(300);
