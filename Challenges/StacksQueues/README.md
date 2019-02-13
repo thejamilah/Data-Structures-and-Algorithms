@@ -1,6 +1,6 @@
-## .NET C# Educational Whiteboard Assignment
+## .NET C# Whiteboard
 
-## Learning
+## Learning Objective
 Stacks and Queues
 
 ## Whiteboard assignment instructions
