@@ -3,10 +3,10 @@
 ## Learning
 Linked Lists and Node Iterations
 
-## Whiteboard assignment instructions
+## Problem Domain
 Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. 
 
-### Problem Domain
+### PD Shorthand
 Find the Kth value from the end of a linked list
 
 ### Whiteboard Solution Images
