@@ -1,4 +1,4 @@
-## .NET C# Educational Whiteboard Assignment
+## .NET C# Data Structures and Algorithms
 
 ## Learning
 Linked Lists and Node Iterations
