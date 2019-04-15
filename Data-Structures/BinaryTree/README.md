@@ -1,5 +1,4 @@
-# Implement Binary Tree Search
-## .NET C# Educational Data Structure Implementation
+## .NET C# Data Structure Implementation
 
 ## Binary Tree Search
 This is an implementation of Binary Tree Search </br>
