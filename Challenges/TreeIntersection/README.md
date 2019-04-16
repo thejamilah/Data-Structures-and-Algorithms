@@ -2,12 +2,10 @@
 
 ## Tree Intersection, Binary Tree, Hastable
 
-## 
-Return values found in both input binary trees. </br>
-
+## Return values found in both input binary trees. </br>
 
 ### Problem Domain
-Write a function that takes two binary tree parameters without utilizing any of the built-in library methods available to your language, return a set of values found in both trees. </br>
+Write a method that takes two binary tree parameters without utilizing any of the built-in library methods available to your language, return a set of values found in both trees. </br>
 
 _Example Input_ </br>
  ![input tree 1](https://user-images.githubusercontent.com/39015829/48531900-09d9d300-e853-11e8-86bd-d3ccc456673b.jpg)</br>
