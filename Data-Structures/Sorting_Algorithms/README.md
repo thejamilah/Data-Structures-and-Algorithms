@@ -1,5 +1,5 @@
 # Implement Sorting Algorithms
-## .NET C# Educational Lab Assignment
+## .NET C# 
 
 ### Insertion Sort 
 You can read more about Insertion Sort with the links below </br>
