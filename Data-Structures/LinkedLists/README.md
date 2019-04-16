@@ -1,8 +1,8 @@
 # Implement Linked Lists
-## .NET C# Educational Lab Assignment - Linked Lists
+## .NET C#
 
-## Linked Lists
-This is an educational assignment instantiates a singly linked list. </br>
+## Focus
+Singly linked list.</br>
 
 #### Linked Lists Documentation
 You can read more about Linked Lists with the links below </br>
