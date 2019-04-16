@@ -1,10 +1,7 @@
-## .NET C# Whiteboard
-
-## Learning Objective
+# Learning Objective
 Stacks and Queues
 
-## Whiteboard assignment instructions
-Implement a Queue using two Stacks
+## Implement a Queue using two Stacks
 
 ### Problem Domain
 * Implement a queue from input of nodes using two stacks
