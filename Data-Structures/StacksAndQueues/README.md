@@ -1,8 +1,8 @@
 # Implement Stacks and Queues
-## .NET C# Educational Lab Assignment - Stacks and Queues
+## .NET C#
 
 ## Stacks and Queues
-This is an educational assignment that focuses on LINQ Query (Language INtegrated Queries) and Lambda Expressions </br>
+Focus: LINQ Query (Language INtegrated Queries) and Lambda Expressions </br>
 
 #### Stack Queue Documentation
 You can read more about Stacks and Queues with the links below </br>
