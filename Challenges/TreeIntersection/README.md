@@ -1,11 +1,8 @@
-## .NET C#
+# Trees
 
-## Learning
-Tree Instersection</br>
-Binary Tree</br>
-Hashtable</br>
+## Tree Intersection, Binary Tree, Hastable
 
-## Whiteboard assignment instructions
+## 
 Return values found in both input binary trees. </br>
 
 
