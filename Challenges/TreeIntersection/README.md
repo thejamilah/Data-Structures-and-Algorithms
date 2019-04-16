@@ -1,4 +1,4 @@
-## .NET C# Educational Whiteboard Assignment
+## .NET C#
 
 ## Learning
 Tree Instersection</br>
