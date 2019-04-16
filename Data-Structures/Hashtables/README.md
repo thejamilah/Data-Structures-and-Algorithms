@@ -1,8 +1,5 @@
 # Implement Hashtable
-## .NET C# Educational Lab Assignment - Hashtable
-
-## Hashtable
-This is an educational assignment instantiates a Hashtable. </br>
+## .NET C#
 
 #### Hashtable Documentation
 You can read more about Hashtables in MSDOCS and other documentation with the links below </br>
