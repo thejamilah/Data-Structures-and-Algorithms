@@ -16,8 +16,6 @@
 
 * [Stacks and Queues](/Challenges/StacksQueues)
 
-* [Stack as Queues: Animal Shelter](/Challenges/FIFOAnimalShelfter)
-
 * [Repeated Word](/Challenges/RepeatedWord)
 
 ## Data Structures and Algorithms: Table of Contents
