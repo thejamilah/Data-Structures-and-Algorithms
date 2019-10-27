@@ -22,4 +22,4 @@
 
 * [Binary Search Agorithm](/Data-Structures/BinarySearch)
 
-[Test](https://github.com/thejamilah/Data-Structures-and-Algorithms/edit/master/README.md)
+[Test](/Data-Structures/Test)
