@@ -15,7 +15,7 @@ O (n) A new array is instantiated to hold the elements of the reversed array
 
 * Approach 2 - This approach reverses the array in place
 #### Big O Time:</br>
-O (log n) Time is Logarithmic by narrowing the serch by repeatedly dividing the data set in half to locate the target value instead of Linear performance of iterating through an array of unknown size that becomes less efficient depending upon the lenght of the inout size.</br>
+O (log n) Time is Logarithmic by narrowing the search by repeatedly dividing the data set in half to locate the target value instead of Linear performance of iterating through an array of unknown size that becomes less efficient depending upon the lenght of the inout size.</br>
 #### Big O Space:</br>
 O (1) Space complexity is constant and does not increase with the execution of the code block</br>
 
