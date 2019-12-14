@@ -81,7 +81,7 @@ namespace ReverseArray
             Console.WriteLine(" ");
             Console.WriteLine("This is the result of the reversed input array 2 in place:");
 
-            //Use a for each to iterat through and print out each element in array to the console; the method written is void and has no return type
+            //Use a for each to iterate through and print out each element in array to the console; the method written is void and has no return type
             foreach (int k in inputArray)
             {
                 Console.WriteLine(k);
